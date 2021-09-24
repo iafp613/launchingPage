@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proximamente...</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <img src="" class="logo"> <!--indicar la ruta a tu logotipo en src-->
+
+    <div class="content">
+        <p>Esta web está en construcción</p>
+        <h1>La <span>lanzaremos</span> pronto</h1>
+        <div class="launch-time">
+            <div>
+                <p id="dias">00</p>
+                <span>Días</span>
+            </div>
+            <div>
+                <p id="horas">00</p>
+                <span>Horas</span>
+            </div>
+            <div>
+                <p id="minutos">00</p>
+                <span>Minutos</span>
+            </div>
+            <div>
+                <p id="segundos">00</p>
+                <span>Segundos</span>
+            </div>
+        </div>
+        <button type="button">Saber más <img src="imagenes/triangulo.png"></button>
+    </div>
+    <img src="imagenes/cohete.png" class="rocket">
+</div>
+
+<!--Escribir la fecha y la hora del lanzamiento-->
+<script>
+    var cuentaAtras = new Date("Dec 23, 2021 00:00:00").getTime();
+    var x = setInterval(function(){
+        var ahora = new Date().getTime();
+        var distancia = cuentaAtras - ahora;
+
+        var dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+        var horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+        var segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+
+        document.getElementById("dias").innerHTML = dias;
+        document.getElementById("horas").innerHTML = horas;
+        document.getElementById("minutos").innerHTML = minutos;
+        document.getElementById("segundos").innerHTML = segundos;
+
+        if(distancia < 0){
+            clearInterval(x);
+            document.getElementById("dias").innerHTML = "00";
+            document.getElementById("horas").innerHTML = "00";
+            document.getElementById("minutos").innerHTML = "00";
+            document.getElementById("segundos").innerHTML = "00";
+        }
+    }, 1000);
+</script>
+
+
+
+</body>
+</html>
