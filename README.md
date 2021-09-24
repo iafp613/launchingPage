@@ -45,5 +45,6 @@ _Para poder ejecutar el código entero, no necesitas nada más que un IDLE que s
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (mira el archivo [LICENSE.md](LICENSE.md) para detalles).
+_Este proyecto está bajo la Licencia (mira el archivo [LICENSE.md](LICENSE.md) para detalles)._
+
 ---
