@@ -7,7 +7,7 @@ _Con este código, puedes crear la tuya fácilmente, puedes cambiar las imágene
 
 _¡Espero que te guste!_
 
-![GitHub watchers](https://img.shields.io/github/watchers/iafp613/projects_tb?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/iafp613/launchingPage?style=social)
 
 
 ## Comenzando 🚀
