@@ -29,16 +29,13 @@ _Para poder ejecutar el código entero, no necesitas nada más que un IDLE que s
 * [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de programación
 
 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=iafp613&theme=blue-green)
-
-
 ## Contribuyendo 🖇️
 
 *Por favor, déjame una estrella en mi perfil y/o hazme un follow, ayudas a seguir subiendo más contenido.* 😊
 
 ![GitHub followers](https://img.shields.io/github/followers/iafp613?style=social)
 ![GitHub User's stars](https://img.shields.io/github/stars/iafp613?style=social)
-![GitHub forks](https://img.shields.io/github/forks/iafp613/projects_tb?style=social)
+![GitHub forks](https://img.shields.io/github/forks/iafp613/launchingPage?style=social)
 
 
 ## Autor ✒️
